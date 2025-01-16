@@ -1,0 +1,124 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    /* width: 80%;
+    height: 600px; */
+    /* border: solid 1px black; */
+    background-color: grey;
+}
+
+
+/* .photo{
+    width: 40%; */
+
+.photo-description img{
+   
+    width: 100%;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px;
+}
+.photo-description {
+    border: solid 1px black;
+    background-color:#0693e3 ;
+    width: 45%;
+    height: auto;
+
+}
+.description{
+    width: 30%;
+    height:400px;
+    /* background-color: #0693e3; */
+     
+}
+.description p {
+    padding-left: 20px;
+    text-align: justify;
+}
+
+.para :hover{
+cursor: pointer;
+}
+
+.description h1{
+   
+    text-align: center;
+    
+}
+
+
+.description1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #abb8c3;
+    padding: 20px;
+    width: 80%;
+    
+}
+.java{
+    border: solid 1px;
+    width: 200px;
+    height: 250px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgb(182, 227, 212);
+    transition: 2s;
+   
+}
+.java p {
+    text-align: justify;
+  
+}
+.github{
+    border: solid 1px;
+    padding: 20px;
+    width:200px ;
+    height: 250px;
+    border-radius: 20px;
+    margin-left: 20px;
+    background-color: rgb(182, 227, 212);
+    transition: 1s
+}
+.description h1 {
+    /* font-size: 0px; */
+    text-align: center;
+    font-weight: bold;
+    
+}
+.description h3 {
+    text-align:center ;
+    
+
+}
+.java h1 {
+    color: rgb(238, 44, 130);
+}
+.github h1 {
+    color: rgb(238, 44, 130);
+}
+.skils {
+    padding-top: 70px;
+}
+.java :hover{
+   transform: scale(1.1 , 1.1) 
+}
+.github :hover{
+    transform: scale(1.1 ,1.1) ;
+}
+.skils h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+.fa-solid{
+    font-size: 100px;
+    
+}
+.fa-brands{
+    font-size: 100px;
+}
